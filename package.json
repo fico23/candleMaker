@@ -1,0 +1,23 @@
+{
+  "name": "golden",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "node ./node_modules/standard/bin/cmd.js --verbose",
+    "standard:fix": "node ./node_modules/standard/bin/cmd.js --fix --verbose",
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Filip Lasic",
+  "license": "ISC",
+  "dependencies": {
+    "binance-api-node": "^0.9.2",
+    "hitbtc-api": "^3.0.2",
+    "node-bitstamp": "^2.2.0",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0",
+    "standard": "^14.3.1"
+  }
+}
